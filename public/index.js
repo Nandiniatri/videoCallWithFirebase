@@ -263,6 +263,7 @@ startCallBtn.onclick = async () => {
         });
     });
 
+    console.log(`Room created! Share this ID: ${roomRef.id}`);
     alert(`Room created! Share this ID: ${roomRef.id}`);
 };
 
