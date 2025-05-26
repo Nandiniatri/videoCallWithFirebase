@@ -344,3 +344,23 @@ hangupBtn.onclick = async () => {
 
     alert("Call ended and room deleted");
 };
+
+
+
+
+// {
+//   "hosting": {
+//     "public": "public",
+//     "ignore": [
+//       "firebase.json",
+//       "**/.*",
+//       "**/node_modules/**" 
+//     ],
+//     "rewrites": [
+//       {
+//         "source": "**",
+//         "destination": "/index.html"
+//       }
+//     ]
+//   }
+// }
